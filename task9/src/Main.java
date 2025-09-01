@@ -4,9 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        Scanner inint = new Scanner(System.in);
         System.out.println("Введите размер массива:");
-        int length = inint.nextInt();
+        int length = in.nextInt();
         double [] array = new double[length];
         double sum = 0.0;
         for (int i = 0; i < length; i++) {
